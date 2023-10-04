@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="form">
+        <h1>Pizza Order</h1>
+        <form>
+            <fieldset id="delivery_info">
+                <legend>Delivey Information</legend>
+                <div class="input-name">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Carlos Bonilla" required>
+                </div>
+                <br>
+                <div class="input-address">
+                    <label for="address">Street Address</label>
+                    <input type="text" id="address" name="address" placeholder="Yonge & Dundas Square" required>
+                </div>
+                <br>
+                <div class="input-city">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" placeholder="Toronto" required>
+                </div>
+                <br>
+                <div class="input-email">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="carlos_bonilla@gmail.com" required>
+                </div> <br>
+            </fieldset>
+            <fieldset id="order-info">
+                <legend>Order</legend>
+                <div class="input-pizza">
+                    <legend>Crust</legend>
+                    <label for="thin">Thin</label>
+                    <input type="radio" id="thin" name="crust" value="Thin">
+                    <label for="deep_dish">Deep Dish</label>
+                    <input type="radio" id="thick" name="crust" value="Deep Dish">
+                    <label for="cheese_pizza">Cheese Crust Pizza</label>
+                    <input type="radio" id="cheesy" name="crust" value="Cheese Crust Pizza">
+                </div>
+                <div class="input-size">
+                    <label for="size">Size</label>
+                    <select id="size" name="size" required> 
+                        <option value="1">--Select Size--</option> 
+                        <option value="Extra-Large">Extra-Large</option> 
+                        <option value="Large">Large</option> 
+                        <option value="Medium">Medium</option>  
+                        <option value="Small">Small</option>
+                        <option value="Slice">Slice</option>  
+                        </select>
+                </div>
+                <div class="input-shape">
+                    <label for="shape">Shape</label>
+                    <select id="shape" name="shape" required> 
+                        <option value="1">--Select Shape--</option> 
+                        <option value="Round">Round</option> 
+                        <option value="Square">Square</option>   
+                        </select>
+                </div>
+                <div class="input-take-out">
+                    <legend></legend>
+                    <label for="place">Take out</label>
+                    <input type="radio" id="take-out" name="take-out" value="Take-out">
+                    <label for="eat-in">Eat-in</label>
+                    <input type="radio" id="eat-in" name="eat-in" value="Eat-in">
+                    <label for="delivery">Delivery</label>
+                    <input type="radio" id="delivery" name="delivery" value="Delivery">
+                <div class="input-message">
+                    <label for="comment">Message</label>
+                    <br>
+                    <textarea cols="30" id="message" placeholder="Write your message" name="message"></textarea>
+                </div>
+                <button type="submit">SUBMIT</button>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>

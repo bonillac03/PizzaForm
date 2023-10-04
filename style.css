@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+body {
+    line-height: 1.5;
+    max-width: 960px;
+    background: white;
+    margin: 0 auto;
+    background-image: url('./amaterial/delicious-traditional-pizza-arrangement.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ h1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    width: 66.6667%;
+ }
+ 
+ form {
+    padding: 5px;
+    width: 66.6667%;
+    float: left;
+ }
+ fieldset {
+    margin-bottom: 5px;
+    position: relative;
+    padding: 10px;
+    background: #f3d5c8;
+ }
+ legend {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight: bold;
+     margin: 0;
+  }
+
+
